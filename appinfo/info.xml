@@ -8,6 +8,7 @@
     <version>0.0.1</version>
     <namespace>Files_Copy</namespace>
     <category>other</category>
+    <default_enable/>
     <dependencies>
         <owncloud min-version="8.1" />
     </dependencies>
