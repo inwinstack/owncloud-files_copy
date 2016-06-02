@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>files_copy</id>
+    <name>Files Copy</name>
+    <description>Copy files with files interface</description>
+    <licence>AGPL</licence>
+    <author>simon</author>
+    <version>0.0.1</version>
+    <namespace>Files_Copy</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8.1" />
+    </dependencies>
+</info>
