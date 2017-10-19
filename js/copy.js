@@ -104,7 +104,9 @@ $(document).ready(function() {
 	if(/(public)\.php/i.exec(window.location.href)!=null){
 		return; // escape when the requested file is public.php
 	}
-
+        if (/^(.*)\/index.php\/s\/(.*)/i.exec(location.pathname)){
+            return;
+        }
 	/**
 	 * Init Files_copy
 	 */
